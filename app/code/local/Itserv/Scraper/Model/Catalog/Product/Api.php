@@ -31,7 +31,7 @@
  * @package    Mage_Catalog
  * @author     Magento Core Team <core@magentocommerce.com>
  */
-class Itserv_Scraper_Catalog_Model_Product_Api extends Mage_Catalog_Model_Product_Api
+class Itserv_Scraper_Model_Catalog_Product_Api extends Mage_Catalog_Model_Product_Api
 {
     public function items($filters = null, $store = null)
     {

@@ -29,16 +29,16 @@
 <config>
     <api>
         <resources>
-            <catalog_product translate="title" module="catalog">
-                <title>My Custom Category API</title>
+            <itserv_scraper translate="title" module="scraper">
+                <title>Estensione API Catalogo</title>
                 <model>catalog/product_api</model>
                 <methods>
-                    <items translate="items" module="catalog">
-                        <title>Retrieve detailed list of assigned products to category</title>
+                    <items translate="items" module="scraper">
+                        <title>Ottieni una lista dei prodotti in catalogo con alcune info in piu</title>
                         <acl>catalog/product</acl>
                     </items>
                 </methods>
-            </catalog_product>   
+            </itserv_scraper>   
         </resources>
         <resources_alias>
             <product>catalog_product</product>

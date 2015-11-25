@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Itserv_Feed_Catalog>
+        <Itserv_Scraper>
             <version>1.0</version>
-        </Itserv_Feed_Catalog>
+        </Itserv_Scraper>
     </modules>
     <global>
         <models>
-            <itserv_feed_catalog>
-                <class>Itserv_Feed_Catalog_Model</class>
-            </itserv_feed_catalog>
+            <itserv_scraper>
+                <class>Itserv_Scraper_Model</class>
+            </itserv_scraper>
             <catalog>
                 <rewrite>
-                    <product_api>Itserv_Feed_Catalog_Model_Product_Api</product_api>
+                    <product_api>Itserv_Scraper_Model_Catalog_Product_Api</product_api>
                 </rewrite>
             </catalog>
         </models>
